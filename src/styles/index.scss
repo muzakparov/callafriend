@@ -1,0 +1,177 @@
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.add-page-btn {
+  background: white;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5%;
+}
+
+.brand {
+  color: white;
+}
+
+.add-form {
+  max-width: 700px;
+
+  &__timezone {
+    width: 100%;
+    margin-right: 15px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #000000;
+  z-index: 9999;
+  text-align: center;
+}
+
+.add-btn {
+  width: 40%;
+  margin-top: 10px;
+  max-width: 400px;
+}
+.filters {
+  background: rgb(37, 37, 37);
+  padding: 30px 10px;
+  border-radius: 5px;
+
+  &__timezone input {
+    height: 100%;
+  }
+
+  &__switch {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+  }
+}
+
+.cards {
+  margin-top: 10px;
+
+  &__item {
+    margin-bottom: 15px;
+  }
+}
+
+.card-horizontal {
+  display: flex;
+  background: rgb(53, 53, 53);
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 15px;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+
+  &__img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  &__left {
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+
+  &__middle {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &__right {
+    display: flex;
+    justify-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    max-width: 200px;
+
+    position: relative;
+
+    &-availability {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      font-weight: bold;
+      transform: translateX(-50%);
+    }
+
+    &--red {
+      background: rgb(133, 1, 1);
+    }
+
+    &--blue {
+      background: #0d0db5;
+    }
+  }
+
+  &__section {
+    display: flex;
+    align-items: stretch;
+  }
+
+  &__end-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  &__timezone {
+    margin-right: 15px;
+  }
+
+  &__time-section {
+    margin-right: 10px;
+  }
+
+  &__name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__time-range {
+    font-size: 1rem;
+  }
+
+  &__item {
+    padding: 10px 5px;
+    border: 0.15px solid rgb(37, 37, 37);
+    flex-basis: 100%;
+  }
+
+  &__remove {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__mid-right {
+    padding-right: 50px;
+  }
+}
+
+.icon-phone {
+  width: 50% !important;
+  height: 50% !important;
+}
+
+.icon-remove {
+  width: 20% !important;
+  height: 20% !important;
+}
