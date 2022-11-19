@@ -25,7 +25,7 @@
     "react-live-clock": "^4.0.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-sticky-footer": "^0.1.0-rc3",
     "react-switch": "^5.0.1",
     "react-timezone-picker": "^1.0.8",
